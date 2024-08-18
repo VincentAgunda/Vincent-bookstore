@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap'); /* Open Sans font */
+/* Main settings */
+* {
+    margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; scroll-behavior: smooth;
+}
+body {
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    margin-top: 80px;
+    padding: 3%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    background: #ffffff;
+    padding: 10px 80px;
+    width: 800px;
+}
+form h2 {
+    font-size: 1.9em;
+    margin-bottom: 30px;
+}
+form input, textarea {
+    border: none;
+    color: #1f1f1f;
+    padding: 10px;
+    outline: none;
+    height: 44px;
+    border-radius: 1px;
+    width: 100%;
+    box-shadow: 0 0 14px 2px #0000000a;
+    transition: .3s ease;
+    font-size: 0.9em;
+}
+form input:focus, .form textarea:focus {
+    box-shadow: 0 0 14px 2px #0000001f;
+}
+form textarea {
+    resize: none;
+    height: 140px;
+}
+form input[type="submit"] {
+    background: #FE5A5A;
+    margin-top: 10px;
+    color: #fff;
+    outline: none;
+    height: 54px;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* Address info */
+.address-info {
+    width: 370px;
+    padding: 30px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 1px solid #c5c5c5;
+}
+.address-info .column {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+}
+.column i {
+    color: #FE5A5A;
+    font-size: 1.7em;
+}
+.column h2 {
+    font-size: 1.2em;
+    color: #222;
+}
+.column p {
+    color: #6b6b6b;
+    font-size: 0.9em;
+}
+
+/* Responsibility */
+@media screen and (max-width: 680px) {
+    /* Container */
+    .container {
+        margin-top: 82%;
+        padding: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    /* Form */
+    form {
+        width: 100%;
+        padding: 30px;
+        background: #f6f6f6;
+    }
+    form h2 {
+        padding-top: 45px;
+        font-size: 1.7em;
+    }
+    form textarea {
+        height: 200px;
+    }
+
+    /* Adress info and map */
+    .address-info {
+        width: 100%;
+        border-right: none;
+    }
+    .address-info .column {
+        margin: 20px 0;
+    }
+    .address-info p {
+        font-size: 0.9em;
+    }
+    .media-icons a {
+        font-size: 1.2em;
+    }
+}

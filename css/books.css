@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap'); /* Open Sans font */
+/* Main settings */
+* {
+    margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; scroll-behavior: smooth;
+}
+body {
+    background: #f1f1f1;
+}
+
+.container {
+    margin: 10% 0;
+    padding: 3%;
+    display: flex;
+}
+/* Filters container */
+.filters {
+    background: #fff;
+    min-width: 400px;
+    height: max-content;
+    padding: 20px 30px;
+}
+/* Filters heading */
+.filters .heading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.filters .heading h2 {
+    font-size: 0.8em;
+}
+.filters .heading button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    transition: .3s ease;
+    color: #3f3f3f;
+    font-size: 0.4em;
+}
+.filters .heading button:hover {
+    color: #FE5A5A;
+}
+
+/* Filters content */
+.filter {
+    margin: 30px 0;
+}
+.filter-name {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #2c2c2c;
+}
+.filter-name i {
+    color: #6c6c6c;
+    font-size: 0.9em;
+    margin-left: 5px;
+    display: none;
+}
+.filter button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    transition: .3s ease;
+    font-size: 0.8em;
+    margin-top: 6px;
+    color: #6b6b6b;
+}
+.filters button:hover {
+    color: #FE5A5A;
+}
+.filter-content {
+    margin-top: 15px;
+}
+
+/* Category filter */
+.filter-item.ctg {
+    display: flex;
+    gap: 12px;
+    transition: .3s ease;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.filter-item input {
+    cursor: pointer;
+}
+.filter-item.ctg:hover {
+    box-shadow: 0 0 14px 2px #00000011;
+}
+.filter-item .quantity {
+    color: #6b6b6b;
+}
+
+/* Price filter */
+.filter-item.prc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 14px;
+}
+.filter-item.prc .input {
+    display: flex;
+    align-items: center;
+}
+.filter-item.prc input {
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    cursor: auto;
+    font-size: 1em;
+    text-align: center;
+    color: #242424;
+    width: 100%;
+} 
+.filter-item.prc input:focus::placeholder {
+    color: #fff;
+}
+.filter-item.prc span {
+    color: #8f8f8f;
+    margin-left: 16px;
+}
+.filter-item.prc .currency {
+    margin-left: -30px;
+    color: #5a5a5a;
+}
+
+
+/* Books section */
+.books {
+    margin: 0 20px;
+}
+.books .content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 0 10px;
+}
+.books .content .boxes .box {
+    background: #fff;
+    width: 280px;
+}
+
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: max-content;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 6px;
+    margin-bottom: 2%;
+}
+.pagination a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: 500;
+    transition: .3s ease;
+}
+.pagination a.active {
+    background: #FE5A5A;
+    color: #fff;
+}
+.pagination a.active:hover {
+    background: #FE5A5A;
+}
+.pagination a:hover {
+    background: #ffa0a0;
+    color: #fff;
+}
+
+
+/* Responsibility */
+@media screen and (max-width: 680px) {
+    body {
+        background: #fff;
+    }
+    .container {
+        margin: 26% 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .filters {
+        width: 100%;
+    }
+    .filters .filter-name i {
+        display: inline-block;
+    }
+    .filters .filter {
+        height: 26px;
+        overflow: hidden;
+        transition: .4s ease-in-out;
+        cursor: pointer;
+    }
+    .filters .filter.active {
+        height: max-content;
+    }
+    /* Books section */
+    .books {
+        margin: 5% 0;
+        padding: 0;
+        width: 100%;
+    }
+    .books .content .boxes {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .books .content .boxes .box {
+        width: 160px;
+    }
+}

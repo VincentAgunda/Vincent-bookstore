@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/books.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Vincent's Bookstore</title>
+</head>
+<body>
+    <!-- Mobile header -->
+    <header class="mobile">
+        <div class="logo">
+            <a href="index.html">Vincent.</a>
+            <i class="fa-solid fa-xmark close-mobile-nav"></i>
+        </div>
+        <div class="links">
+            <p>Linki</p>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="books.html">Books</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="account-menu">
+            <p>Konto</p>
+            <a href="login.html">Log in</a>
+            <a href="favs.html">Favorite</a>
+            <a href="cart.html">Basket</a> 
+        </div>
+    </header>
+    
+    <!-- Desktop header, nav -->
+    <div class="navbar">
+        <header>
+            <div class="logo"><a href="index.html">Vincent.</a></div>
+            <div class="search-bar"><input type="text" placeholder="Book, author, category "><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="books.html" class="active">Books</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="hamburger"><i class="fas fa-bars open-mobile-nav"></i></div>
+        </header>
+        <nav>
+            <div class="account-menu">
+                <a href="login.html">Log in</a>
+                <a href="favs.html">Favorite</a>
+                <a href="cart.html">Basket</a> 
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="filters">
+            <div class="heading"><h2>filter</h2> <button>Clear all</button></div>
+            <div class="filter">
+                <div class="filter-name">Category <i class="fa-solid fa-chevron-down"></i></div>
+                <button>Mark all</button>
+                <div class="filter-content">
+                    <label class="filter-item ctg"><input type="checkbox"><p>Fantasy <span class="quantity">(16)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>Science fiction <span class="quantity">(11)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>Jail <span class="quantity">(8)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>For children <span class="quantity">(17)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>For young people <span class="quantity">(9)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>Comics <span class="quantity">(7)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>Biography<span class="quantity">(14)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>Tourism and travel<span class="quantity">(6)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>Business/Economy <span class="quantity">(2)</span></p></label>
+                </div>
+            </div>
+            <div class="filter">
+                <div class="filter-name">Price <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="filter-content">
+                    <div class="filter-item prc">
+                        <div class="input">
+                            <input type="text" placeholder="od">
+                            <div class="currency">$</div>
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="do">
+                            <div class="currency">$</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter">
+                <div class="filter-name">Status <i class="fa-solid fa-chevron-down"></i></div>
+                <button>Mark all</button>
+                <div class="filter-content">
+                    <label class="filter-item ctg"><input type="checkbox"><p>Special offer <span class="quantity">(11)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>Sale<span class="quantity">(3)</span></p></label>
+                    <label class="filter-item ctg"><input type="checkbox"><p>Novelty <span class="quantity">(6)</span></p></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="books">
+            <div class="content">
+                <div class="boxes"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pagination">
+        <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+        <a href="" class="active">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+
+    <script src="js/books.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+</html>

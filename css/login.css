@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap'); /* Open Sans font */
+/* Main settings */
+* {
+    margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; scroll-behavior: smooth;
+}
+body {
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form */
+.form {
+    margin-top: 12%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #fff;
+    padding: 30px 80px 40px 80px;
+    width: 520px;
+    text-align: center;
+}
+.form h2 {
+    font-size: 1.9em;
+    margin-bottom: 30px;
+}
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="text"] {
+    border: none;
+    color: #1f1f1f;
+    padding: 10px;
+    outline: none;
+    height: 44px;
+    border-radius: 1px;
+    box-shadow: 0 0 14px 2px #0000000a;
+    transition: .3s ease;
+}
+.form input[type="email"]:focus,
+.form input[type="password"]:focus,
+.form input[type="text"]:focus {
+    box-shadow: 0 0 14px 2px #0000001f;
+}
+
+
+.form .fpass {
+    text-align: left;
+    font-size: 0.8em;
+    margin-top: -8px;
+    text-decoration: none;
+    color: #FE5A5A;
+}
+.form input[type="submit"] {
+    margin-top: 10px;
+    background: #FE5A5A;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    outline: none;
+    height: 44px;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form .or {
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+.form .btn {
+    height: 45px;
+    background: #232323;
+    line-height: 45px;
+    cursor: pointer;
+}
+.form .btn i {
+    margin-right: 10px;
+    font-size: 1.1em;
+    color: #fff;
+}
+.form .btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+}
+.form .btn.fb {
+    background: #3b5998;
+}
+.form .btn.ig {
+    background: #c32aa3;
+}
+.form .notacc {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+.form .notacc a {
+    color: #FE5A5A;
+}
+
+
+
+/* Responsibility */
+@media screen and (max-width: 680px) {
+    .form {
+        margin-top: 24%;
+        background: #f6f6f6;
+        padding: 20px;
+        width: 100%;
+    }
+    .form h2 {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Log in | Bookstore.pl</title>
+</head>
+<body>
+    <!-- Mobile header -->
+    <header class="mobile">
+        <div class="logo">
+            <a href="index.html">Vincent.</a>
+            <i class="fa-solid fa-xmark close-mobile-nav"></i>
+        </div>
+        <div class="links">
+            <p>Lines</p>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="books.html">Books</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="account-menu">
+            <p>Account</p>
+            <a href="login.html">Log in</a>
+            <a href="favs.html">Favorite</a>
+            <a href="cart.html">Basket</a> 
+        </div>
+    </header>
+    
+    <!-- Desktop header, nav -->
+    <div class="navbar">
+        <header>
+            <div class="logo"><a href="index.html">Vincent.</a></div>
+            <div class="search-bar"><input type="text" placeholder="Book, author, category"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="books.html">Books</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="hamburger"><i class="fas fa-bars open-mobile-nav"></i></div>
+        </header>
+        <nav>
+            <div class="account-menu">
+                <a href="login.html" class="active">Log in</a>
+                <a href="favs.html">Favorite</a>
+                <a href="cart.html">Basket</a> 
+            </div>
+        </nav>
+    </div>
+
+    <form class="form">
+        <h2>Log in</h2>
+        <input type="email" placeholder="E-mail address">
+        <input type="password" placeholder="Password">
+        <a href="#" class="fpass">Forgot password?</a>
+        <input type="submit" value="Login">
+        <span class="or">Or login with</span>
+        <div class="btn fb"><a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a></div>
+        <div class="btn ig"><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></div>
+        <span class="notacc">Don't have an account? <a href="signup.html">Sign up</a></span>
+    </form>
+
+    <script src="js/nav.js"></script>
+</body>
+</html>

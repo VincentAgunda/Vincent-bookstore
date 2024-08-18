@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "img": "https://prodimage.images-bn.com/pimages/9788448060367_p0_v7_s1200x630.jpg",
+        "author": "Glukhovsky Dmitry",
+        "title": "Metro 2033",
+        "price": "39.99 $",
+        "discount": "49.99 $",
+        "sale": "-20%",
+        "rating": 5
+    },
+
+    {
+        "id": "2",
+        "img": "https://cf-tk.statiki.pl/images/large/217/9788367339124.jpg",
+        "author": "Dashner James",
+        "title": "Prisoner of the maze",
+        "price": "22.99 $",
+        "discount": "",
+        "sale": "",
+        "rating": 5
+    },
+
+    {
+        "id": "3",
+        "img": "https://media.gettyimages.com/id/1329616170/vector/brochure-cover-design-layout-for-business-stock-illustration.jpg?s=612x612&w=0&k=20&c=7_iD6DGmC1-Xvkpz5L3aS0tu0Zhzx5-veI-HIu9n-Sk=",
+        "author": "Collins Suzane",
+        "title": "Hunger Games",
+        "price": "35.99 $",
+        "discount": "",
+        "sale": "",
+        "rating": 5
+    },
+
+    {
+        "id": "4",
+        "img": "https://media.gettyimages.com/id/1322433208/vector/corporate-book-cover-design-template-in-a4.jpg?s=612x612&w=0&k=20&c=CnF2BZI45w_6E9Pk_G3xQOa_iy2tbDEitLeKOXoFC58=",
+        "author": "King Stephen",
+        "title": "Outsider",
+        "price": "24.99 $",
+        "discount": "",
+        "sale": "",
+        "rating": 5
+    },
+
+    {
+        "id": "5",
+        "img": "https://media.gettyimages.com/id/1322433208/vector/corporate-book-cover-design-template-in-a4.jpg?s=612x612&w=0&k=20&c=CnF2BZI45w_6E9Pk_G3xQOa_iy2tbDEitLeKOXoFC58=",
+        "author": "Tadeusz Dołęga-Mostowicz",
+        "title": "Knoor",
+        "price": "23.20 $",
+        "discount": "33.20 $",
+        "sale": "-30%",
+        "rating": 4
+    },
+
+    {
+        "id": "6",
+        "img": "https://s.lubimyczytac.pl/upload/books/5076000/5076796/1086084-352x500.jpg",
+        "author": "King Stephen",
+        "title": "Holly",
+        "price": "28.97 $",
+        "discount": "",
+        "sale": "",
+        "rating": 5
+    },
+
+    {
+        "id": "7",
+        "img": "https://ecsmedia.pl/cdn-cgi/image/format=webp,width=544,height=544,/c/diuna-kroniki-diuny-tom-1-b-iext137017822.jpg",
+        "author": "Herbert Frank",
+        "title": "Godlight",
+        "price": "34.99 $",
+        "discount": "",
+        "sale": "",
+        "rating": 5
+    },
+
+    {
+        "id": "8",
+        "img": "https://s.lubimyczytac.pl/upload/books/5087000/5087587/1101682-352x500.jpg",
+        "author": "Małecki Robert",
+        "title": "Adhesion",
+        "price": "29.77 $",
+        "discount": "39.77 $",
+        "sale": "-25%",
+        "rating": 5
+    },
+
+    {
+        "id": "9",
+        "img": "https://s.lubimyczytac.pl/upload/books/5088000/5088059/1102668-352x500.jpg",
+        "author": "Janiszewska Izabela",
+        "title": "In the claws",
+        "price": "26.35 $",
+        "discount": "",
+        "sale": "",
+        "rating": 4
+    },
+
+    {
+        "id": "10",
+        "img": "https://s.lubimyczytac.pl/upload/books/5079000/5079092/1087622-352x500.jpg",
+        "author": "Mróz Remigiusz",
+        "title": "Plea",
+        "price": "26.75 $",
+        "discount": "",
+        "sale": "",
+        "rating": 4
+    },
+
+    {
+        "id": "11",
+        "img": "https://www.oczytani.pl/galerie/w/wiezien-labiryntu-tom-3-lek-n_19003.webp",
+        "author": "James Dashner",
+        "title": "Labyrinth prisoner: Drug medicine",
+        "price": "38,90 $",
+        "discount": "",
+        "sale": "",
+        "rating": 5
+    }
+]

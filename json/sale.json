@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "img": "https://img.freepik.com/premium-photo/creative-book-cover-design-with-modern-stylish-elements_1199394-71735.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "White Loreth Anne",
+        "title": "Patient secret",
+        "price": "26.75 $",
+        "discount": "31.75 $",
+        "sale": "-40%",
+        "rating": 5
+    },
+
+    {
+        "id": "2",
+        "img": "https://img.freepik.com/free-vector/annual-report-business-brochure-flyer-clean-design_1017-33573.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Mróz Remigiusz",
+        "title": "kabalista",
+        "price": "24.70 $",
+        "discount": "31.70 $",
+        "sale": "-30%",
+        "rating": 5
+    },
+
+    {
+        "id": "3",
+        "img": "https://img.freepik.com/free-vector/annual-report-business-brochure-flyer-clean-design_1017-33573.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Małecki Robert",
+        "title": "Adhesion",
+        "price": "29.77 $",
+        "discount": "39.77 $",
+        "sale": "-25%",
+        "rating": 4
+    },
+
+    {
+        "id": "4",
+        "img": "https://img.freepik.com/free-vector/atomic-love-wattpad-book-cover_23-2149231553.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Tadeusz Dołęga-Mostowicz",
+        "title": "Znachor",
+        "price": "23.20 $",
+        "discount": "33.20 $",
+        "sale": "-30%",
+        "rating": 4
+    },
+
+    {
+        "id": "5",
+        "img": "https://img.freepik.com/premium-photo/realistic-3d-book-cover-mockup-template-authors-publishers_1281490-5256.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Glukhovsky Dmitry",
+        "title": "Metro 2033",
+        "price": "39.99 $",
+        "discount": "49.99 $",
+        "sale": "-20%",
+        "rating": 5
+    },
+
+    {
+        "id": "6",
+        "img": "https://media.istockphoto.com/id/1445627464/vector/book-cover-brochure-designs-in-geometric-style-vector-illustration.jpg?s=612x612&w=0&k=20&c=zyzuXQuuvDxC5VkmQ55Mr5Zo9fvVljjkLwPX2uDZlec=",
+        "author": "Kosik Rafał",
+        "title": "Cyberpunk 2077. No case",
+        "price": "32.47 $",
+        "discount": "39.47 $",
+        "sale": "-15%",
+        "rating": 3
+    },
+
+    {
+        "id": "7",
+        "img": "https://img.freepik.com/free-vector/bike-guy-wattpad-book-cover_23-2149452163.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Simmons Dan",
+        "title": "Hyperion",
+        "price": "37.85 $",
+        "discount": "43.85 $",
+        "sale": "-20%",
+        "rating": 5
+    },
+
+    {
+        "id": "8",
+        "img": "https://img.freepik.com/premium-photo/two-books-table-one-which-is-silver-silver_1032785-23793.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Isaacson Walter",
+        "title": "Elon Musk",
+        "price": "49.83 $",
+        "discount": "56.83 $",
+        "sale": "-30%",
+        "rating": 5
+    },
+
+    {
+        "id": "9",
+        "img": "https://ecsmedia.pl/cdn-cgi/image/format=webp,width=544,height=544,/c/ostatnie-zyczenie-wiedzmin-tom-1-b-iext121324546.jpg",
+        "author": "Sapkowski Andrzej",
+        "title": "Last wish.The Witcher.Volume 1",
+        "price": "29.93 $",
+        "discount": "37.93 $",
+        "sale": "-20%",
+        "rating": 5
+    },
+
+    {
+        "id": "10",
+        "img": "https://ecsmedia.pl/cdn-cgi/image/format=webp,width=544,height=544,/c/basniowa-opowiesc-wersja-limitowana-b-iext141617558.jpg",
+        "author": "King Stephen",
+        "title": "Fairy -tale story",
+        "price": "44.48 $",
+        "discount": "65.48 $",
+        "sale": "-40%",
+        "rating": 4
+    },
+
+    {
+        "id": "11",
+        "img": "https://ecsmedia.pl/cdn-cgi/image/format=webp,width=544,height=544,/c/star-wars-cien-sithow-b-iext137976414.jpg",
+        "author": "Christopher Adam",
+        "title": "Star Wars.Sith shadow",
+        "price": "32.67 $",
+        "discount": "38.67 $",
+        "sale": "-10%",
+        "rating": 4
+    }
+]

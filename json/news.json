@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "img": "https://img.freepik.com/premium-photo/psd-thriller-book-cover-mockup_1279821-10418.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Aleksandra Kondraciuk",
+        "title": "Venom",
+        "price": "32.43 $",
+        "discount": "",
+        "sale": "",
+        "rating": 5
+    },
+
+    {
+        "id": "2",
+        "img": "https://img.freepik.com/premium-photo/psd-thriller-book-cover-mockup_1279821-7478.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Weronika Plota",
+        "title": "Hellish Heat",
+        "price": "29.18 $",
+        "discount": "",
+        "sale": "",
+        "rating": 5
+    },
+
+    {
+        "id": "3",
+        "img": "https://img.freepik.com/premium-photo/psd-thriller-book-cover-mockup_1279821-10418.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Krasowka Maria",
+        "title": "Fala",
+        "price": "28.26 $",
+        "discount": "",
+        "sale": "",
+        "rating": 2
+    },
+
+    {
+        "id": "4",
+        "img": "https://media.gettyimages.com/id/1322433208/vector/corporate-book-cover-design-template-in-a4.jpg?s=612x612&w=0&k=20&c=CnF2BZI45w_6E9Pk_G3xQOa_iy2tbDEitLeKOXoFC58=",
+        "author": "Aleksandra Nil",
+        "title": "Look at Me Princess",
+        "price": "27.23 $",
+        "discount": "",
+        "sale": "",
+        "rating": 4
+    },
+
+    {
+        "id": "5",
+        "img": "https://media.gettyimages.com/id/1322433208/vector/corporate-book-cover-design-template-in-a4.jpg?s=612x612&w=0&k=20&c=CnF2BZI45w_6E9Pk_G3xQOa_iy2tbDEitLeKOXoFC58=",
+        "author": "Balicka Joanna",
+        "title": "Red Lies",
+        "price": "32.43 $",
+        "discount": "",
+        "sale": "",
+        "rating": 4
+    },
+
+    {
+        "id": "6",
+        "img": "https://img.freepik.com/premium-photo/realistic-3d-book-cover-mockup-template-authors-publishers_1281490-5198.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Izabella Nowaczyk",
+        "title": "Start Over",
+        "price": "27.88 $",
+        "discount": "",
+        "sale": "",
+        "rating": 3
+    },
+
+    {
+        "id": "7",
+        "img": "https://ecsmedia.pl/cdn-cgi/image/format=webp,width=544,height=544,/c/vincent-b-iext137970341.jpg",
+        "author": "Brylewska Julia",
+        "title": "Vincent",
+        "price": "27.88 $",
+        "discount": "",
+        "sale": "",
+        "rating": 3
+    },
+
+    {
+        "id": "8",
+        "img": "https://media.gettyimages.com/id/1322433208/vector/corporate-book-cover-design-template-in-a4.jpg?s=612x612&w=0&k=20&c=CnF2BZI45w_6E9Pk_G3xQOa_iy2tbDEitLeKOXoFC58=",
+        "author": "Zandler Sylwia",
+        "title": "Royal",
+        "price": "27.23 $",
+        "discount": "",
+        "sale": "",
+        "rating": 2
+    },
+
+    {
+        "id": "9",
+        "img": "https://img.freepik.com/premium-photo/realistic-3d-book-cover-mockup-template-authors-publishers_1281490-5198.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "wiśniewskaKatarzyna",
+        "title": "Sensitive Heart",
+        "price": "32.43 $",
+        "discount": "",
+        "sale": "",
+        "rating": 4
+    },
+
+    {
+        "id": "10",
+        "img": "https://media.gettyimages.com/id/1322433208/vector/corporate-book-cover-design-template-in-a4.jpg?s=612x612&w=0&k=20&c=CnF2BZI45w_6E9Pk_G3xQOa_iy2tbDEitLeKOXoFC58=",
+        "author": "Brylewska Julia",
+        "title": "Michael",
+        "price": "29.18 $",
+        "discount": "",
+        "sale": "",
+        "rating": 3
+    },
+
+    {
+        "id": "11",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "James Dashner",
+        "title": "Labyrinth prisoner: Drug medicine",
+        "price": "38.90 $",
+        "discount": "",
+        "sale": "",
+        "rating": 5
+    }
+]
