@@ -1,9 +1,9 @@
 [
     {
         "id": "1",
-        "img": "https://prodimage.images-bn.com/pimages/9788448060367_p0_v7_s1200x630.jpg",
+        "img": "https://img.freepik.com/premium-photo/psd-thriller-book-cover-mockup_1279821-10418.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
         "author": " Dmitry",
-        "title": "Metro 2033",
+        "title": "The Realer",
         "price": "39.99 $",
         "discount": "49.99 $",
         "sale": "-20%",
@@ -12,9 +12,9 @@
 
     {
         "id": "2",
-        "img": "https://cf-tk.statiki.pl/images/large/217/9788367339124.jpg",
-        "author": "Dashner James",
-        "title": "Prisoner of the maze",
+        "img": "https://img.freepik.com/free-vector/good-paper-wattpad-book-cover_23-2149452379.jpg?t=st=1724153911~exp=1724157511~hmac=cd031d5e055b0bc7a6f15ae590138ced27c124480a95ceafe656bbfcd3c6bd0d&w=740",
+        "author": "Patricia Kim",
+        "title": "Good on paper",
         "price": "22.99 $",
         "discount": "",
         "sale": "",
@@ -23,9 +23,9 @@
 
     {
         "id": "3",
-        "img": "https://s3.amazonaws.com/virginia.webrand.com/virginia/KCVmVkYK8Z7/6c87950023f80a5b753d2e7ccf8e1633/344/1691090565.png",
-        "author": "Collins Suzane",
-        "title": "Hunger Games",
+        "img": "https://img.freepik.com/free-vector/bike-guy-wattpad-book-cover_23-2149452163.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
+        "author": "Ema",
+        "title": "Bike guy",
         "price": "35.99 $",
         "discount": "",
         "sale": "",
@@ -34,7 +34,7 @@
 
     {
         "id": "4",
-        "img": "https://s3.amazonaws.com/virginia.webrand.com/virginia/GKumoBGqZCB/b236e4a2f13b7568034863282dc1d06e/344/1690581756.png",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
         "author": "King Stephen",
         "title": "Outsider",
         "price": "24.99 $",
@@ -45,7 +45,7 @@
 
     {
         "id": "5",
-        "img": "https://s3.amazonaws.com/virginia.webrand.com/virginia/KCVmVk06CA7/bae6841eb38fb1245b04981efc98df2c/344/1690581364.png",
+        "img": "https://img.freepik.com/premium-photo/book-titled-book-by-david-bock_1032785-23777.jpg?size=626&ext=jpg&ga=GA1.1.692803983.1723716108&semt=ais_hybrid",
         "author": "Tadeusz ",
         "title": "Knoor",
         "price": "23.20 $",
