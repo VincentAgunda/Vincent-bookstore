@@ -29,5 +29,28 @@ git https://github.com/Vincent3488/Vincent-bookstore.git
 cd vincent-bookstore
 
 Deployed Version 
-https://vinsbookstore.netlify.app/
+[Demo](https://vinsbookstore.netlify.app/)
+
+
+Vincent's bookstore/
+│
+├── index.html                # The main HTML file
+├── styles/
+│   ├── about.css              # Main stylesheet
+│   ├── cart.css        # Styles for categories page
+│   ├── book.css      # Styles for book details page
+│   └── contact.css        # Responsive design stylesheet
+│
+├── scripts/
+│   ├── about.js               # Main JavaScript file
+│   ├── books.js           # Wishlist management script
+│   ├── nav.js            # Payment handling script
+│   └── script.js            # Customer reviews management script
+│
+├── assets/
+│   ├── images/               # Images used in the project
+│   └── icons/                # Icon files
+│
+└── README.md                 # Project documentation
+
 
