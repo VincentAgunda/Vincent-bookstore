@@ -9,7 +9,7 @@
     padding: 2.5% 5%;
     display: flex;
     flex-direction: column;
-    background: #fcfcfc;
+    background: #f1f6d5;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -76,6 +76,7 @@
 .cart .wrapper {
     display: flex;
     justify-content: space-between;
+    border-radius: 15px;
 }
 
 /* Cart items section */
@@ -103,6 +104,7 @@
     background: #fff;
     border-radius: 3px;
     box-shadow: 0 0 12px 2px #0000000c;
+    border-radius: 15px;
 }
 .item img {
     height: 100px;
@@ -205,6 +207,7 @@
     height: max-content;
     width: max-content;
     box-shadow: 0 0 12px 2px #0000000c;
+    border-radius: 15px;
 }
 .cart-info .row {
     display: flex;
@@ -237,13 +240,14 @@
     outline: none;
     height: 42px;
     width: 100%;
-    background: #9C60FF;
+    background: #ea5f5f;
     color: #fff;
     font-size: 1em;
     font-weight: 500;
     cursor: pointer;
     margin-bottom: 6px;
     transition: .3s ease;
+    border-radius: 10px;
 }
 .cart-info .btn-1:hover {
     background: #8648eb;
@@ -253,10 +257,12 @@
     color: #9C60FF;
     letter-spacing: 1px;
     font-size: 0.95em;
+    
 }
 .cart-info .btn-2:hover {
     color: #8648eb;
     letter-spacing: 0.8px;
+    
 }
 
 /* Discount code */

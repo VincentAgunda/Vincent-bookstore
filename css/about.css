@@ -4,7 +4,7 @@
     margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; scroll-behavior: smooth;
 }
 body {
-    background: #f1f1f1;
+    background: f1f6d5;
 }
 
 .about-container {
@@ -12,10 +12,10 @@ body {
 }
 .about-container .row {
     display: flex;
-    background: #712525;
+    background: #991b1b;
     margin: 10% 0;
     height: 600px;
-    border-radius: 15px; 
+    border-radius: 20px; 
 }
 .about-container .row.reverse {
     flex-direction: row-reverse;
@@ -62,6 +62,7 @@ body {
     width: 760px;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 
@@ -78,6 +79,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    
 }
 .benefit {
     width: 300px;
@@ -87,6 +89,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
 }
 .benefit .icon {
     margin-top: 25px;
@@ -126,6 +129,7 @@ body {
 }
 .swiper-container {
     padding: 0 3%;
+    border-radius: 15px;
 }
 
 
@@ -138,6 +142,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 .review .image {
     margin-top: -5%;
@@ -236,6 +241,7 @@ body {
     .benefits-container {
         margin-top: 8%;
         gap: 20px;
+        
     }
     .benefit {
         width: 170px;
@@ -246,6 +252,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
     .benefit .icon {
         width: 60px;
@@ -292,5 +299,6 @@ body {
     .swiper-container {
         padding: 5%;
         margin: 8% 0 0 0;
+      
     }    
 }

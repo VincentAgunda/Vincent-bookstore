@@ -4,7 +4,7 @@
     margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; scroll-behavior: smooth;
 }
 body {
-    background: #f6f6f6;
+    background: f1f6d5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    border-radius: 15px;
 }
 /* Form */
 form {
@@ -29,6 +30,7 @@ form {
     background: #ffffff;
     padding: 10px 80px;
     width: 800px;
+    
 }
 form h2 {
     font-size: 1.9em;
@@ -45,6 +47,7 @@ form input, textarea {
     box-shadow: 0 0 14px 2px #0000000a;
     transition: .3s ease;
     font-size: 0.9em;
+    border-radius: 10px
 }
 form input:focus, .form textarea:focus {
     box-shadow: 0 0 14px 2px #0000001f;
@@ -62,6 +65,7 @@ form input[type="submit"] {
     font-size: 1.1em;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 15px
 }
 
 
