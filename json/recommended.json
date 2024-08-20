@@ -2,7 +2,7 @@
     {
         "id": "1",
         "img": "https://prodimage.images-bn.com/pimages/9788448060367_p0_v7_s1200x630.jpg",
-        "author": "Glukhovsky Dmitry",
+        "author": " Dmitry",
         "title": "Metro 2033",
         "price": "39.99 $",
         "discount": "49.99 $",
@@ -23,7 +23,7 @@
 
     {
         "id": "3",
-        "img": "https://media.gettyimages.com/id/1329616170/vector/brochure-cover-design-layout-for-business-stock-illustration.jpg?s=612x612&w=0&k=20&c=7_iD6DGmC1-Xvkpz5L3aS0tu0Zhzx5-veI-HIu9n-Sk=",
+        "img": "https://s3.amazonaws.com/virginia.webrand.com/virginia/KCVmVkYK8Z7/6c87950023f80a5b753d2e7ccf8e1633/344/1691090565.png",
         "author": "Collins Suzane",
         "title": "Hunger Games",
         "price": "35.99 $",
@@ -34,7 +34,7 @@
 
     {
         "id": "4",
-        "img": "https://media.gettyimages.com/id/1322433208/vector/corporate-book-cover-design-template-in-a4.jpg?s=612x612&w=0&k=20&c=CnF2BZI45w_6E9Pk_G3xQOa_iy2tbDEitLeKOXoFC58=",
+        "img": "https://s3.amazonaws.com/virginia.webrand.com/virginia/GKumoBGqZCB/b236e4a2f13b7568034863282dc1d06e/344/1690581756.png",
         "author": "King Stephen",
         "title": "Outsider",
         "price": "24.99 $",
@@ -45,8 +45,8 @@
 
     {
         "id": "5",
-        "img": "https://media.gettyimages.com/id/1322433208/vector/corporate-book-cover-design-template-in-a4.jpg?s=612x612&w=0&k=20&c=CnF2BZI45w_6E9Pk_G3xQOa_iy2tbDEitLeKOXoFC58=",
-        "author": "Tadeusz Dołęga-Mostowicz",
+        "img": "https://s3.amazonaws.com/virginia.webrand.com/virginia/KCVmVk06CA7/bae6841eb38fb1245b04981efc98df2c/344/1690581364.png",
+        "author": "Tadeusz ",
         "title": "Knoor",
         "price": "23.20 $",
         "discount": "33.20 $",
@@ -67,7 +67,7 @@
 
     {
         "id": "7",
-        "img": "https://ecsmedia.pl/cdn-cgi/image/format=webp,width=544,height=544,/c/diuna-kroniki-diuny-tom-1-b-iext137017822.jpg",
+        "img": "https://s3.amazonaws.com/virginia.webrand.com/virginia/KCVmVkYK8Z7/6c87950023f80a5b753d2e7ccf8e1633/344/1691090565.png",
         "author": "Herbert Frank",
         "title": "Godlight",
         "price": "34.99 $",
@@ -79,7 +79,7 @@
     {
         "id": "8",
         "img": "https://s.lubimyczytac.pl/upload/books/5087000/5087587/1101682-352x500.jpg",
-        "author": "Małecki Robert",
+        "author": "Malek Robert",
         "title": "Adhesion",
         "price": "29.77 $",
         "discount": "39.77 $",

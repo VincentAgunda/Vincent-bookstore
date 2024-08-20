@@ -267,7 +267,7 @@
         "id": "3",
         "img": "https://s.lubimyczytac.pl/upload/books/5087000/5087587/1101682-352x500.jpg",
         "author": "Małecki Robert",
-        "title": "Zrost",
+        "title": "Adhesion",
         "price": "29.77 $",
         "discount": "39.77 $",
         "sale": "-25%",
@@ -277,7 +277,7 @@
     {
         "id": "4",
         "img": "https://s.lubimyczytac.pl/upload/books/5085000/5085885/1098860-352x500.jpg",
-        "author": "Tadeusz Dołęga-Mostowicz",
+        "author": "Tadeusz -Mostowicz",
         "title": "Znachor",
         "price": "23.20 $",
         "discount": "33.20 $",
@@ -287,7 +287,7 @@
 
     {
         "id": "5",
-        "img": "https://ecsmedia.pl/cdn-cgi/image/format=webp,width=544,height=544,/c/metro-2033-b-iext128004727.jpg",
+        "img": "https://s3.amazonaws.com/virginia.webrand.com/virginia/GKumoBGqZCB/b236e4a2f13b7568034863282dc1d06e/344/1690581756.png",
         "author": "Glukhovsky Dmitry",
         "title": "Metro 2033",
         "price": "39.99 $",

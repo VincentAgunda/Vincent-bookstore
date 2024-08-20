@@ -28,5 +28,6 @@ Since this project is built with just HTML, CSS, and JavaScript, there's no need
 git https://github.com/Vincent3488/Vincent-bookstore.git
 cd vincent-bookstore
 
-Desktop View
+Deployed Version 
+https://vinsbookstore.netlify.app/
 

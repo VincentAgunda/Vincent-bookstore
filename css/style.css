@@ -28,7 +28,7 @@ section {
     height: 50px !important;
     width: 50px !important;
     background: #ffffffbe;
-    border-radius: 50%;
+    border-radius: 15px;
     transform: translateY(20px);
     margin: 0 15px;
     transition: .3s ease;
@@ -86,12 +86,12 @@ header .links a {
 }
 header .links a.active,
 .navbar nav a.active {
-    color: #fb923c;
+    color: darkcyan;
 }
 header .links a.active::after {
     content: '';
     height: 3px;
-    background: #fb923c;
+    background: darkcyan;
     width: 60%;
     text-align: center;
     position: absolute;
@@ -99,7 +99,7 @@ header .links a.active::after {
     bottom: -7px;
 }
 header .links a:hover {
-    color: #fb923c;
+    color: darkcyan;
 }
 header .search-bar {
     width: 30%;
@@ -130,7 +130,7 @@ header .search-bar i {
 /* Nav */
 nav {
     height: 60px;
-    background: #ef4444;
+    background: #991b1b;
     border-top: 1px solid #363636;
     padding: 0 3%;
     display: flex;
@@ -155,10 +155,10 @@ nav {
     width: 20px;
     line-height: 19px;
     text-align: center;
-    background: #fb923c;
+    background: #d72c38;
     color: #fff;
     font-weight: 500;
-    border-radius: 50%;
+    border-radius: 15px;
     font-size: 0.8em;
     position: absolute;
     right: -24%;
@@ -221,7 +221,7 @@ header.mobile .logo i {
     color: #fff;
 }
 header.mobile .logo a {
-    color: #fff;
+    color: #d1c4c1;
 }
 header.mobile .links {
     display: flex;
@@ -270,7 +270,7 @@ header.mobile .account-menu a {
 .line {
     width: 10%;
     margin: 15px auto;
-    border: 1px solid #fb923c;
+    border: 1px solid #3286B5;
 }
 .swiper-wrapper {
     padding: 1% 0 3% 0;
@@ -282,15 +282,18 @@ header.mobile .account-menu a {
     padding-bottom: 25px;
     transition: all .3s;
     padding: 14px;
-    border-radius: 5px;
+    border-radius: 15px;
     text-wrap: nowrap;
     overflow: hidden;
     border-radius: 15px; 
+    color: darkcyan;
 }
 .content .box:hover {
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.137);
     text-wrap: wrap;
     overflow: auto;
+    border-radius: 15px;
+    
 }
 .content .box:hover .image .add-favs-btn {
     display: block;
@@ -299,23 +302,25 @@ header.mobile .account-menu a {
     height: 360px;
     width: 100%;
     position: relative;
+    border-radius: 15px;
+    
 }
 .content .box .image .sale {
     position: absolute;
     top: 4%;
     left: 7%;
     padding: 8px 16px;
-    background: #7b42d8;
+    background: #3286B5;
     color: #fff;
     font-weight: 700;
     font-size: 0.9em;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 .content .box .image .add-favs-btn {
     height: 40px;
     width: 40px;
-    border-radius: 50%;
-    background: #fe5a5ab7;
+    border-radius: 15px;
+    background: #dc2626;
     color: #fff;
     text-align: center;
     line-height: 40px;
@@ -328,14 +333,15 @@ header.mobile .account-menu a {
     display: none;
 }
 .content .box .image .add-favs-btn:hover {
-    background: #fb923c;
+    background: #475569;
+    border-radius: 15px;
 }
 .content .box img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 .content .box .author {
     font-size: 1em;
@@ -347,29 +353,29 @@ header.mobile .account-menu a {
 }
 .content .box .title {
     margin-top: 8px;
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: 600;
     cursor: pointer;
-    transition: all .3s;
+    transition: all .4s;
 }
 .content .box .author:hover,
 .content .box .title:hover {
-    color: #fb923c;
+    color: #3286B5;
 }
 .content .box .price-info {
     height: 60px;
 }
 .content .box .price-info .price {
     margin: 16px 0 5px 0;
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: 700;
-    color: #fb923c;
+    color: rgb(35, 32, 32);
     float: left;
 }
 .content .box .price-info .discount {
-    font-size: 1.1em;
+    font-size: 0.9em;
     color: #949494;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: line-through;
     float: left;
     line-height: 63px;
@@ -377,7 +383,7 @@ header.mobile .account-menu a {
 }
 .content .box .rating i {
     margin: 0px 2px 10px 2px;
-    color: #FFC700;
+    color: white;
 }
 .content .box .btn {
     margin-top: 8px;
@@ -389,7 +395,7 @@ header.mobile .account-menu a {
     border: none;
     outline: none;
     color: var(--white);
-    background: #fb923c;
+    background: #475569;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -397,12 +403,13 @@ header.mobile .account-menu a {
     gap: 15px;
     font-size: 1em;
     transition: all .3s;
+    border-radius: 15px;
 }
 .content .box .btn button:hover {
-    background: #df4e4e;
+    background: #dc2626;
 }
 .content .box .btn button i {
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 
@@ -417,7 +424,7 @@ header.mobile .account-menu a {
     gap: 15px;
 }
 .tiles-content .tile {
-    background: #fb923c;
+    background: darkcyan;
     width: 320px;
     height: 460px;
     margin: 45px 0;
@@ -427,6 +434,7 @@ header.mobile .account-menu a {
     justify-content: center;
     gap: 20px;
     box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.171);
+    border-radius: 20px;
 }
 .tiles-content .tile .image{
     height: 76%;
@@ -434,12 +442,12 @@ header.mobile .account-menu a {
 }
 .tiles-content .tile .image img {
     height: 100%;
-    border-radius: 2px;
+    border-radius: 15px;
 }
 .tiles-content .tile .title {
     color: #fff;
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 0.8em;
     text-align: center;
 }
 
@@ -470,11 +478,11 @@ header.mobile .account-menu a {
     width: 200px;
     height: 200px;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 15px;
     background: #ececec;
 }
 .categories-content .category img {
-    height: 190px;
+    height: 200px;
 }
 
 
@@ -510,7 +518,7 @@ header.mobile .account-menu a {
     color: #fff;
     font-size: 1.1em;
     font-weight: 600;
-    border-radius: 4px;
+    border-radius: 15px;
     text-decoration: none;
     transition: .4s ease;
 }
@@ -536,7 +544,7 @@ header.mobile .account-menu a {
     width: 380px;
     background: #1F1F1F;
     box-shadow: 0 0 19px 3px #00000050;
-    border-radius: 4px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     padding: 40px 0;
@@ -561,7 +569,7 @@ header.mobile .account-menu a {
 }
 .artists-content .artist-box .rating i {
     margin: 5px 2px 10px 2px;
-    color: #ffbb00;
+    color: whitesmoke;
     font-size: 0.9em;
 }
 .artists-content .artist-box .artist-name {
@@ -614,7 +622,7 @@ header.mobile .account-menu a {
     width: 240px;
     border: none;
     outline: none;
-    border-radius: 2px 0 0 2px;
+    border-radius: 15px;
     padding: 15px;
     background: #fff;
     transition: .3s ease;
@@ -627,6 +635,7 @@ header.mobile .account-menu a {
     background: rgb(21, 74, 74);;
     cursor: pointer;
     transition: .3s ease;
+    border-radius: 15px;
 }
 #newsletter input[type="submit"]:hover {
     background: #f87171;
@@ -741,11 +750,12 @@ footer .footer-content .col a:hover {
     /* Books box */
     .swiper-pagination {
         display: none;
+        border-radius: 15px;
     }
     .content .box {
         min-height: 440px;
         padding: 0;
-        box-shadow: none;
+        box-shadow: #d1c4c1;
         overflow: hidden;
     }
     .content .box:hover {
@@ -919,4 +929,17 @@ footer .footer-content .col a:hover {
         text-align: center;
         gap: 35px;
     }
+}
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn ease 0.4s;
 }
