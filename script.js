@@ -33,9 +33,9 @@ const addCartBtn = (section) => {
               <div class="author">${author.textContent}</div>
           </div>
           <div class="price-info">
-              <div class="price">${price.textContent}</div>
-              <div class="discount">${discount.textContent}</div>
-              <div class="delivery">Delivery od 9,99 $</div>
+              <div class="price">ksh{price.textContent}</div>
+              <div class="discount">ksh{discount.textContent}</div>
+              <div class="delivery">Delivery od 9,99 ksh</div>
           </div>
           <div class="quantity">
               <div class="minus">-</div>
@@ -100,9 +100,9 @@ const addToFavs = (section) => {
           <div class="author">${author.textContent}</div>
       </div>
       <div class="price-info">
-        <div class="price">${price.textContent}</div>
-        <div class="discount">${discount.textContent}</div>
-        <div class="delivery">Delivery od 9,99 $</div>
+        <div class="price">ksh{price.textContent}</div>
+        <div class="discount">ksh{discount.textContent}</div>
+        <div class="delivery">Delivery od 9,99 ksh</div>
       </div>
       <div class="buttons">
           <button><i class="fa-solid fa-cart-plus"></i></button>
@@ -136,9 +136,9 @@ const checkoutCalculation = (priceCalc) => {
   priceCalc = parseFloat(priceCalc.textContent);
   totalPrice += priceCalc;
   totalPriceDelivery += priceCalc;
-  totalPriceDiv.innerHTML = totalPrice.toFixed(2) + " $";
-  totalPriceDeliveryDiv.innerHTML = totalPriceDelivery.toFixed(2) + " $";
-  deliveryPriceDiv.innerHTML = 9.99 + " $";
+  totalPriceDiv.innerHTML = totalPrice.toFixed(2) + " ksh";
+  totalPriceDeliveryDiv.innerHTML = totalPriceDelivery.toFixed(2) + " ksh";
+  deliveryPriceDiv.innerHTML = 9.99 + " ksh";
 }
 
 const showPopup = (message, btnClass, btnContent, img, title, author, price, discount, list) => {
@@ -158,8 +158,8 @@ cartPopup.innerHTML =
             <div class="title">${title.textContent}</div>
             <div class="author">${author.textContent}</div>
             <div class="price-info">
-                <div class="price">${price.textContent}</div>
-                <div class="discount">${discount.textContent}</div>
+                <div class="price">ksh{price.textContent}</div>
+                <div class="discount">ksh{discount.textContent}</div>
             </div>
             <div class="buttons">
                 <button class="${btnClass}">View ${btnContent}</button>
@@ -295,8 +295,8 @@ function showBooks(file, section, favs, cart, rating) {
                 <div class="title">${product.title}</div>
                 <div class="author">${product.author}</div>
                 <div class="price-info">
-                  <div class="price">${product.price}</div>
-                  <div class="discount">${product.discount}</div>
+                  <div class="price">ksh{product.price}</div>
+                  <div class="discount">ksh{product.discount}</div>
                 </div>
                 <div class="rating">${product.rating}</div>
                 <div class="btn"><button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to cart</button></div>
